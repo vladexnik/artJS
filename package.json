@@ -1,0 +1,33 @@
+{
+	"name": "picture",
+	"version": "1.0.0",
+	"description": "",
+	"main": "gulpfile.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "",
+	"license": "ISC",
+	"browserslist": [
+		"> 1%",
+		"not dead"
+	],
+	"devDependencies": {
+		"@babel/core": "^7.22.5",
+		"@babel/preset-env": "^7.23.2",
+		"@types/node": "^20.8.10",
+		"babel": "^6.23.0",
+		"babel-core": "^6.26.3",
+		"babel-loader": "^9.1.2",
+		"browser-sync": "^2.29.3",
+		"core-js": "^3.31.0",
+		"gulp": "^4.0.2",
+		"gulp-build": "^0.5.3",
+		"webpack": "^5.89.0",
+		"webpack-stream": "^7.0.0"
+	},
+	"dependencies": {
+		"dotenv": "^16.3.1",
+		"firebase": "^10.5.2"
+	}
+}
